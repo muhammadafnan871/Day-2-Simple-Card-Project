@@ -1,16 +1,26 @@
 /* Responsive styles for small screens */
- @media only screen and (min-width: 250px) and (max-width: 320px) {
-  
+@media only screen and (min-width: 250px) and (max-width: 320px) {
+    .cardContainer {
+        flex-direction: column;
+        width: 250px !important;
+    }
+
+    .card {
+        flex-basis: 200px !important;
+    }
+.textDesign{
+    flex-basis: 200px;
 }
+p{
+        margin-bottom: 25px !important;
+    }
+}
+
 /* Responsive styles for medium screens */
-@media only screen and (min-width: 321px) and (max-width: 375px) {
-    
-}
+@media only screen and (min-width: 321px) and (max-width: 375px) {}
+
 /* Responsive styles for large screens */
-@media only screen and (min-width: 376px) and (max-width: 425px) {
-    
-}
+@media only screen and (min-width: 376px) and (max-width: 425px) {}
+
 /* Responsive styles for Tablet screens */
-@media only screen and (min-width: 426px) and (max-width: 768px) {
-   
-}
+@media only screen and (min-width: 426px) and (max-width: 768px) {}
