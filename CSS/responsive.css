@@ -8,19 +8,135 @@
     .card {
         flex-basis: 200px !important;
     }
-.textDesign{
-    flex-basis: 200px;
-}
-p{
+
+    .textDesign {
+        flex-basis: 200px;
+        line-height: 23px;
+        font-size: 19px;
+    }
+
+    p {
         margin-bottom: 25px !important;
     }
 }
 
 /* Responsive styles for medium screens */
-@media only screen and (min-width: 321px) and (max-width: 375px) {}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .cardContainer {
+        flex-direction: column;
+        width: 270px !important;
+        padding: 35px !important;
+    }
+
+    .card {
+        flex-basis: 200px !important;
+    }
+
+    .textDesign {
+        flex-basis: 200px;
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    p {
+        margin-bottom: 25px !important;
+    }
+
+}
 
 /* Responsive styles for large screens */
-@media only screen and (min-width: 376px) and (max-width: 425px) {}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+
+    .cardContainer {
+        flex-direction: column;
+        width: 300px !important;
+        padding: 45px !important;
+    }
+
+    .card {
+        flex-basis: 200px !important;
+    }
+
+    .textDesign {
+        flex-basis: 200px;
+        line-height: 27px;
+        font-size: 20px;
+    }
+
+    p {
+        margin-bottom: 25px !important;
+    }
+}
 
 /* Responsive styles for Tablet screens */
-@media only screen and (min-width: 426px) and (max-width: 768px) {}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+    .cardContainer {
+
+        width: 580px !important;
+        padding: 70px !important;
+    }
+
+    .card {
+        flex-basis: 220px !important;
+    }
+
+    .textDesign {
+        flex-basis: 230px;
+        line-height: 21px;
+        font-size: 18px;
+    }
+
+    p {
+        margin-bottom: 25px !important;
+    }
+
+}
+/* Responsive styles for Desktop screens */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .cardContainer {
+
+        width: 750px !important;
+        padding: 85px !important;
+    }
+
+    .card {
+        flex-basis: 260px !important;
+    }
+
+    .textDesign {
+        flex-basis: 260px;
+        line-height: 29px;
+        font-size: 20px;
+    }
+
+    p {
+        margin-bottom: 25px !important;
+    }
+
+}
+/* Responsive styles for Extra Large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    .cardContainer {
+
+        width: 610px !important;
+        padding: 50px !important;
+    }
+
+    .card {
+        flex-basis: 310px !important;
+    }
+
+    .textDesign {
+        flex-basis: 310px;
+        line-height: 29px;
+        font-size: 20px;
+    }
+
+    p {
+        margin-bottom: 25px !important;
+    }
+
+}
